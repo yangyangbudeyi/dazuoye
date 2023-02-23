@@ -1,0 +1,1 @@
+function o(){var e=new Date,g=e.getFullYear(),t=e.getMonth(),r=e.getDate(),a=e.getHours(),n=e.getMinutes(),i=e.getSeconds();return t=t+1,t<10&&(t="0"+t),r<10&&(r="0"+r),a<10&&(a="0"+a),n<10&&(n="0"+n),i<10&&(i="0"+i),g+"-"+t+"-"+r+" "+a+":"+n+":"+i}export{o as g};
