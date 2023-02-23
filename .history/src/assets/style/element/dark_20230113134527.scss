@@ -1,0 +1,26 @@
+@forward 'element-plus/theme-chalk/src/dark/var.scss' with (
+  $bg-color: (
+    menuItem:#404040,
+    commonBg:#404040,
+    articleItemBg:#1F1F1F,
+    detailBg:#1A1A1A,
+    shaow:red  //292929
+  ),
+   $text-color: (
+    title:#D8D8D8
+  ),
+  $border-color:(
+   'tag': #404040,
+  ),
+   $colors: (
+    'primary': (
+      'base': skyblue
+    ),
+    "success":(
+    'base': teal
+    )
+  ),
+
+);
+@use "element-plus/theme-chalk/src/dark/css-vars.scss" as *;
+

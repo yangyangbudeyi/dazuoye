@@ -1,0 +1,38 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $bg-color: (
+    'menuItem':#E8F7FC,
+    'commonBg':#F1F2F3,
+    'articleItemBg':#FAFAFA,
+    'detailBg':#F8F8F8,
+    'shadowCol':#ddd,
+    'arrowCol':#282936
+  ),
+  $colors: (
+    'primary': (
+      'base': skyblue
+    ),
+    "success":(
+    'base': teal
+    ),
+    "warning":(
+    'base':#7179ED
+    ),
+    'detailTextColor': #858689  //#D8D8D8 858689   //详情页面热门文章以及分类标签字体
+  ),
+   $text-color: (
+    title:#1d2129
+  ),
+  $border-color:(
+   'tag': #ddd,
+  ),
+  $border-radius:(
+   'base': 4px,
+  ),
+ 
+
+);
+
+
+
+
+@use "element-plus/theme-chalk/src/index.scss" as *;
