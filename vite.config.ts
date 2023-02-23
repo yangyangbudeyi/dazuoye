@@ -10,7 +10,7 @@ export default defineConfig({
       '@': path.join(__dirname, 'src')
     },
   },
-  // base:"./",
+  base:"./",
   plugins: [
   
     AutoImport({
